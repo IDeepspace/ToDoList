@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 30px;
+}
+.container{
+    width: 500px;
+    background-color: #67b0ff;
+    border-radius: 20px;
+    margin: 5px auto;
+    padding: 20px;
+    box-shadow: #3385FF;
+}
+#inputList{
+    width: 392px;
+    height: 100px;
+    /*background-color: #fff;*/
+    margin:0 auto;
+}
+#txt {
+    padding: 5px 10px 5px 10px;
+    width: 250px;
+    font-size: large;
+    border: 1px solid #B8B8B8;
+}
+#txt:focus{
+    border:1px solid #3385FF;
+}
+#btn{
+    width: 70px;
+    height: 35px;
+    margin-left:5px;
+}
+.header{
+    color: white;
+}
+#showList{
+    border-bottom: 1px solid #8B8B8B;
+    padding-bottom: 20px;
+}
+.overLists{
+    padding: 20px;
+    margin: 10px;
+    background-color: rgba(209, 252, 181,0.5);
+    color: #8F8F8F;
+    border-left: 10px #4078C0 solid;
+}
+/*添加后的样式*/
+.lists{
+    padding: 15px;
+    margin: 10px;
+    background-color: #FFF8BF;
+    border-left: 10px #4078C0 solid;
+}
